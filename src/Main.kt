@@ -60,13 +60,13 @@ fun isPrime(num: Int): Boolean {
 
 
 
-//fun findNumber(numbers:Array<Int>):Int{
-//    for(number in numbers)
-//        if (numbers.count() ==1){
-//         println(numbers)
-//        }
-//    else{
-//        println("number appears more than once")
-//        }
-//    return numbers
-//}
+fun findNumber(numbers:Array<Int>):Array<Int>{
+    for(number in numbers)
+        if (numbers.count() ==1){
+         println(numbers)
+        }
+    else{
+        println("number appears more than once")
+        }
+    return (numbers)
+}
